@@ -21,26 +21,26 @@ sudo install minikube /usr/local/bin/
 
 4.- Confirm Installation
 
-# Select drive <driver_name> https://kubernetes.io/docs/setup/learning-environment/minikube/#specifying-the-vm-driver 
-# For example with virtual box:->   minikube start --vm-driver=virtualbox 
+Select drive <driver_name> https://kubernetes.io/docs/setup/learning-environment/minikube/#specifying-the-vm-driver 
+For example with virtual box:->   minikube start --vm-driver=virtualbox 
 
 minikube start --vm-driver=<driver_name>    
 
 5.- Basics Commands
 
-# Verificate status
+Verificate status
 minikube status
 
-# Stop cluster
+Stop cluster
 minikube stop
 
 
-# Start cluster
+Start cluster
 minikube start
 
-# If you have previously installed minikube, and run the following error
-# before execute "minikube start" -> machine does not exist.
-# you need to clear minikube's local state:
+If you have previously installed minikube, and run the following error
+before execute "minikube start" -> machine does not exist.
+you need to clear minikube's local state:
 minikube delete
 
 
